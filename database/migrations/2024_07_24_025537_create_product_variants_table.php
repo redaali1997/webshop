@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->unsignedInteger('product_id');
             $table->string('color')->nullable();
-            $table->string('sizee')->nullable();
+            $table->string('size')->nullable();
             $table->timestamps();
         });
     }
